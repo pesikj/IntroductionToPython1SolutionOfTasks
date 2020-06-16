@@ -1,0 +1,1 @@
+# IntroductionToPython1SolutionOfTasks
