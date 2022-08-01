@@ -8,13 +8,15 @@ heslo2 = input("Zadej heslo znovu: ")
 #   print("Heslo je příliš krátké")
 
 email = input("Zadej email: ")
-if len(email) > 5:
-  if "." in email:
-    if "@" in email:
-      print("Email je ok.")
-    else:
-      print("Chybí zavináč.")
-  else:
-    print("Chybí tečka.")
-else:
+spravny = True
+if len(email) <= 5:
   print("Email je moc krátký")
+  spravny = False
+if "." not in email:
+  print("Chybí tečka.")
+  spravny = False
+if "@" not in email:      
+  print("Chybí zavináč.")
+  spravny = False
+if spravny == True:
+  print("Email je ok.")
