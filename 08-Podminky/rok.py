@@ -1,15 +1,16 @@
 rok = input("Zadej rok: ")
 rok = int(rok)
-if rok % 4 == 0:
-  if rok % 100 == 0:
-    if rok % 400 == 0:
-      print("Rok je přestupný.")
-    else:
-      print("Rok není přestupný")
-  else:
+if rok % 4 != 0:
+  print("Rok není přestupný")
+  exit()
+# Zde využíváme vnořenou podmínku - podmínku uvnitř podmínky
+if rok % 100 == 0:
+  if rok % 400 == 0:
     print("Rok je přestupný.")
+  else:
+    print("Rok není přestupný")
 else:
-  print("Rok není přestupný.")
+  print("Rok je přestupný.")
 
 """
 Alternativní řešení pomocí klíčových slov and a or.
