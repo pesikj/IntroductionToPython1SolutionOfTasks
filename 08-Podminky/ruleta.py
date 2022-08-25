@@ -8,19 +8,60 @@ cislo = input("Zadej čislo: ")
 cislo = int(cislo)
 
 if cislo == 0:
-  print("Číslo je 0.")
-else:
-  if cislo % 2 == 0:
+    print("Číslo je 0.")
+    exit()
+
+if cislo % 2 == 0:
     print("Číslo je sudé.")
-  else:
+else:
     print("Číslo je liché.")
-  if cislo <= 10 or (cislo >= 19 and cislo <= 28):
+
+if cislo <= 10:
     if cislo % 2 == 0:
-      print("Číslo je černé.")
+        print("Číslo je černé.")
     else:
-      print("Číslo je červené.")
-  else:
+        print("Číslo je červené.")
+    exit()
+elif cislo <= 19:
     if cislo % 2 == 1:
-      print("Číslo je černé.")
+        print("Číslo je černé.")
     else:
-      print("Číslo je červené.")
+        print("Číslo je červené.")
+elif cislo <= 28:
+    if cislo % 2 == 0:
+        print("Číslo je černé.")
+    else:
+        print("Číslo je červené.")
+else:
+    if cislo % 2 == 1:
+        print("Číslo je černé.")
+    else:
+        print("Číslo je červené.")
+
+# Alternativní řešení
+
+cislo = input("Zadej čislo: ")
+cislo = int(cislo)
+
+if cislo == 0:
+  print("Číslo je 0.")
+  exit()
+if cislo % 2 == 0:
+    print("Číslo je sudé.")
+else:
+    print("Číslo je liché.")
+if cislo <= 10:
+    if cislo % 2 == 0:
+        print("Číslo je černé.")
+    else:
+        print("Číslo je červené.")
+elif 19 <= cislo <= 28:
+    if cislo % 2 == 0:
+        print("Číslo je černé.")
+    else:
+        print("Číslo je červené.")
+else:
+    if cislo % 2 == 1:
+        print("Číslo je černé.")
+    else:
+        print("Číslo je červené.")
