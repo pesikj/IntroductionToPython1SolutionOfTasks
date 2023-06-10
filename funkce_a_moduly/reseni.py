@@ -1,25 +1,26 @@
 # 1
 nazev = "Divadlo Pěst na oko"
 delka = len(nazev) * 30
+print(delka)
 
 # 2
 cena = 12 * 0.65
 koruny = round(24 * cena)
+print(koruny)
 
 # 3
 import math
 koruny = math.ceil(24 * cena)
+print(koruny)
 
 # 4
 import random
 cislo = random.randint(1, 24)
+print(cislo)
+cislo = random.randint(1, 24)
+print(cislo)
+cislo = random.randint(1, 24)
+print(cislo)
+cislo = random.randint(1, 24)
+print(cislo)
 
-# 5
-# a
-import math
-cislo = 2.5
-zaokrouhlene = math.floor(cislo + 0.5)
-# b
-import random
-cislo = random.uniform(0, 10)
-zaokrouhlene = math.floor(cislo + 0.5)

@@ -1,3 +1,5 @@
+# V programu není print, ale ten můžete poté vložit kamkoli, abyste si zkontrolovali výsledek
+
 # 1
 # a
 herci = 15
