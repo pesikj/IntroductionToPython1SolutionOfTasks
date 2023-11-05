@@ -24,4 +24,4 @@ minut = delka % 60
 # 3
 zbyva = 350 % 32
 dokoupit = 32 - zbyva
-celkemRad = (350 + dokoupit) / 32
+celkem_rad = (350 + dokoupit) / 32

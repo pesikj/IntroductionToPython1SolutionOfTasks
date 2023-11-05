@@ -1,4 +1,4 @@
-uzivatelskeJmeno = input("Zadej uživatelské jméno: ")
+uzivatelske_jmeno = input("Zadej uživatelské jméno: ")
 heslo = input("Zadej heslo: ")
 if heslo != "simsalabim":
     print("Vstup nepovolen!")

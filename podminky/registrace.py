@@ -1,4 +1,4 @@
-uzivatelskeJmeno = input("Zadej uživatelské jméno: ")
+uzivatelske_jmeno = input("Zadej uživatelské jméno: ")
 heslo = input("Zadej heslo: ")
 heslo2 = input("Zadej heslo znovu: ")
 if heslo != heslo2:
