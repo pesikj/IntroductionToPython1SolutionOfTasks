@@ -32,4 +32,5 @@ cena_dite = cena_dospely * 0.5
 naklady_celkem = cena_dospely * 60 + cena_dite * 8
 # d
 cena_dospely = 1000
+cena_dite = cena_dospely * 0.5
 naklady_celkem = cena_dospely * 60 + cena_dite * 8
