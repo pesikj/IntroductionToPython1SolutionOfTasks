@@ -1,0 +1,5 @@
+uzivatel = input('Zadej uživatelské jméno: ')
+print(uzivatel[2])
+print(uzivatel[4])
+print(uzivatel[6])
+print(uzivatel[100])
