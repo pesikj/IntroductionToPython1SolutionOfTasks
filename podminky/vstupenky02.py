@@ -8,7 +8,7 @@ plna_cena = 12
 if vek < 6:
   cena = 0
 elif vek <= 26:
-  cena = plna_cena * (1 - 0.65)
+  cena = plna_cena * 0.65
 elif vek <= 64:
   cena = plna_cena
 else:
