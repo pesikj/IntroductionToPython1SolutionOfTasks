@@ -21,7 +21,6 @@ if cislo <= 10:
         print("Číslo je černé.")
     else:
         print("Číslo je červené.")
-    exit()
 elif cislo <= 19:
     if cislo % 2 == 1:
         print("Číslo je černé.")
