@@ -16,7 +16,7 @@ else:
 Alternativní řešení pomocí klíčových slov and a or.
 
 Klíčová slova and a or jsou popsaná zde: 
-http://nove.kodim.cz/czechitas/progr2-python/zaklady-programovani-2/podminky-2
+https://kodim.cz/czechitas/uvod-do-progr-1/prvni-krucky/podminky/cteni-na-doma
 """
 
 if rok % 4 == 0 and (rok % 100 != 0 or rok % 400 == 0):

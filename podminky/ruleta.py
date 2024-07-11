@@ -1,7 +1,7 @@
 """
 Klíčová slova and a or jsou popsaná zde: 
 
-http://nove.kodim.cz/czechitas/progr2-python/zaklady-programovani-2/podminky-2
+https://kodim.cz/czechitas/uvod-do-progr-1/prvni-krucky/podminky/cteni-na-doma
 """
 
 cislo = input("Zadej čislo: ")
@@ -21,7 +21,6 @@ if cislo <= 10:
         print("Číslo je černé.")
     else:
         print("Číslo je červené.")
-    exit()
 elif cislo <= 19:
     if cislo % 2 == 1:
         print("Číslo je černé.")
